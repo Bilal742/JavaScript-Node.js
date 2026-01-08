@@ -19,5 +19,5 @@ let text = fs.readFileSync("test.txt", "utf-8");
 text = text.replace("Node", "Java")
 fs.writeFileSync("style.txt", text); 
 
-
+ 
 console.log(text); 
