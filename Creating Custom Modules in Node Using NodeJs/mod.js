@@ -10,7 +10,7 @@ function average(arr) {
 
 module.exports = {
     avg: average,
-    name: "bilal", 
+    name: "bilal",  
     age: 18
 };
 
