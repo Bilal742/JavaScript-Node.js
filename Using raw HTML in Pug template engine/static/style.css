@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #111;
+    padding: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+    color: #00bcd4;
+}
+
+
+body {
+    background-color: #111;
+    font-family: Arial, sans-serif;
+}
+
+.gym-form {
+    width: 350px;
+    background-color: #222;
+    padding: 50px;
+    margin: 80px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.gym-form h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.gym-form input,
+.gym-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.gym-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00bcd4;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.gym-form button:hover {
+    background-color: #0097a7;
+}
